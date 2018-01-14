@@ -13,7 +13,6 @@
 		01E276B220073CD00067AB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E276B020073CD00067AB11 /* LaunchScreen.storyboard */; };
 		01E276B520073CD00067AB11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E276B420073CD00067AB11 /* main.m */; };
 		01E276BF20073CD00067AB11 /* TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E276BE20073CD00067AB11 /* TestUITests.m */; };
-		01E277872007AB600067AB11 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E277852007AB600067AB11 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +37,6 @@
 		01E276BA20073CD00067AB11 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E276BE20073CD00067AB11 /* TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUITests.m; sourceTree = "<group>"; };
 		01E276C020073CD00067AB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01E277852007AB600067AB11 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		01E277862007AB600067AB11 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +80,6 @@
 			children = (
 				01E276A520073CD00067AB11 /* AppDelegate.h */,
 				01E276A620073CD00067AB11 /* AppDelegate.m */,
-				01E277842007AB600067AB11 /* ViewController */,
 				01E276AB20073CD00067AB11 /* Main.storyboard */,
 				01E276AE20073CD00067AB11 /* Assets.xcassets */,
 				01E276B020073CD00067AB11 /* LaunchScreen.storyboard */,
@@ -100,15 +96,6 @@
 				01E276C020073CD00067AB11 /* Info.plist */,
 			);
 			path = TestUITests;
-			sourceTree = "<group>";
-		};
-		01E277842007AB600067AB11 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				01E277852007AB600067AB11 /* ViewController.m */,
-				01E277862007AB600067AB11 /* ViewController.h */,
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +201,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E276B520073CD00067AB11 /* main.m in Sources */,
-				01E277872007AB600067AB11 /* ViewController.m in Sources */,
 				01E276A720073CD00067AB11 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
