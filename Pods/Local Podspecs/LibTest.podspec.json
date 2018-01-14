@@ -1,0 +1,25 @@
+{
+  "name": "LibTest",
+  "version": "1.0.0",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "license": "MIT",
+  "summary": "iOS TestLit Project",
+  "homepage": "https://www.baidu.com",
+  "authors": {
+    "cy": "1510207073@qq.com"
+  },
+  "source": {
+    "git": "../../Test"
+  },
+  "description": "cy TestLib Project",
+  "requires_arc": true,
+  "public_header_files": "LitTest.h",
+  "source_files": "*.{h,m}",
+  "dependencies": {
+    "MJRefresh": [
+
+    ]
+  }
+}

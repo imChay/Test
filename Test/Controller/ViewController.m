@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-//#import "CYPrint.h"
-#import "LibTest.h"
+//#import "LibTest.h"
+#import <LibTest/CYPrint.h>
 
 
 @interface ViewController ()
